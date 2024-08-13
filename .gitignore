@@ -1,0 +1,36 @@
+# Rust-related ignores
+/target/
+/Cargo.lock
+
+# Build artifacts
+**/*.rs.bk
+
+# Logs
+*.log
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# IDE specific files
+.idea/
+/.vscode/
+/*.sublime-workspace
+/*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Documentation
+/target/doc/

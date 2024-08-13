@@ -1,0 +1,22 @@
+[package]
+name = "number_theory_project"
+version = "0.2.0"
+authors = ["Daniil Krizhanovskyi <daniil.krizhanovskyi@hotmail.com>"]
+edition = "2021"
+description =  ""
+repository = "https://github.com/dkrizhanovskyi/number_theory_project"
+
+[dependencies]
+k256 = "0.13"
+rand = "0.8"
+rand_core = "0.6"
+rayon = "1.5"
+num = "0.4"
+ndarray = "0.16" 
+cc = "1.0"
+
+[build-dependencies]
+cc = "1.0"
+
+
+
